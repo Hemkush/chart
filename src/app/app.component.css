@@ -1,0 +1,89 @@
+body{
+  position: absolute;
+  background-color: rgb(88, 74, 74);
+  width: 32.5%;
+  top: 50px;
+}
+#chart {
+  max-width: 380px;
+ 
+  padding: 0;
+  width: 100%;
+  position:absolute;
+  top: 5px;
+  left: 25%;
+  
+  
+  
+}
+h1{
+  color: #fff;
+}
+
+  .chart2{
+    position: absolute;
+    top: 50px;
+    left: 33%;
+    width: 32.5%;
+    height:120px;
+    margin-right: 20px;
+  }
+  .chart3{
+    position: absolute;
+    top: 50px;
+    left: 65.6%;
+    width: 32.83%;
+    height:120px;
+    margin-right: 20px;
+  }
+  .table{
+    position: absolute;
+    top: 370px;
+    width: 99%;
+  }
+  
+
+  .container nav.desk{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #f106e6;
+  height: 60px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+}
+
+nav.desk ul {
+  list-style: none;
+  width: 70%;
+  height: 60px;
+  margin: 0 auto;
+}
+
+nav.desk ul li {
+  width: 16.66%;
+  float: left;
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.6s ease;
+}
+
+nav.desk ul li:hover{
+  background: #a3ada5;
+}
+
+nav.desk ul li.active{
+  background: #a3ada5;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.ae{
+  background-color: green;
+  font-size: 40px;
+  font-family: cursive;
+}
